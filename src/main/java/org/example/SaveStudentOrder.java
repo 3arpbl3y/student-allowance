@@ -1,5 +1,7 @@
 package org.example;
 
+import lombok.Data;
+
 public class SaveStudentOrder {
     public static void main(String[] args) {
         saveStudentOrder();
@@ -9,4 +11,5 @@ public class SaveStudentOrder {
         System.out.println("new SSO");
 
     }
+
 }
